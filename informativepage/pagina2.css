@@ -1,0 +1,223 @@
+body{
+    /*border: 5px solid goldenrod;*/
+    background-image: url(../images/sunset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+header{
+    /*border: 4px solid green;*/
+    justify-content: center;
+    height: 350px;
+    width: auto;
+
+
+}
+
+    #header-container{
+        /*border:3px dotted rgb(0, 77, 0);*/
+        background-color: rgb(32, 19, 107,.2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+        .logo{
+           /* border: 3px solid rgb(2, 85, 2);*/
+            height: 100px;
+            width: 100px;
+        }
+
+            .logo img{
+                padding-top: 10px;
+                height: auto;
+                width: 100%;
+            }
+
+        .menu{
+          /*  border: 3px solid rgb(255, 145, 0);*/
+            
+        }
+
+                ul{
+                   /* border: 2px double blue;*/
+                    display: flex;
+                    flex-direction: row;
+                    gap: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    font-family:cursive;
+                    font-size: 20px;
+                    
+
+
+                }
+
+                 li{
+                     /* border:2px solid black;*/
+                     list-style: none;
+                     text-align: center;
+
+                     }
+
+                     .menu,a, li{
+                        text-decoration: none;
+                        color: aliceblue;
+                     
+                     }
+
+        
+
+        .social{
+           /* border: 3px solid rgb(110, 168, 110);*/
+            display: flex;
+            gap:30px;
+        }
+
+
+            .fab color2{
+                color: rgb(41, 41, 192);
+
+            }
+
+
+    #subheader-container{
+        /*border:3px dotted rgb(1, 95, 59);*/
+
+        background-position: center;
+        height: 100%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+        .texto-contenido{
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: cursive;
+            text-align: center;
+
+
+        }
+        
+
+
+
+
+
+
+nav{
+  /*  border: 4px solid red;*/
+    height: 500px;
+    width: 100%;
+
+}
+
+
+    .nav-container{
+        /*border: 3px dotted rgb(107, 3, 3);*/
+        background-color: rgb(16, 16, 77,.6);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .nv-image{
+        border-radius: 10px;
+        height: 225px;
+        width: auto;
+
+
+    }
+
+        .sub-nav-container{
+           /* border:2px double rgb(34, 1, 218);*/
+
+            align-content: flex-start;
+            color: aliceblue;
+            font-family:cursive;
+            font-size: 26px;
+        }
+
+           
+
+
+section{
+   /* border:4px solid purple;*/
+
+}
+
+    .section-container{
+        /*border: 4px solid rgb(177, 3, 177);*/
+        /*border: 2px dotted rgb(204, 7, 204);*/
+        background-color: rgb(16, 16, 77,.6);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+          .children-container{
+            
+             border-radius: 15px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+               }
+
+                  .img-section{
+                       height: 200px;
+                       width: 250px;
+                       border-radius: 50px;
+                       margin-top: 20px;
+                       margin-left: 30px;
+                       box-shadow: 10px 5px 5px hsl(0, 0%, 0%,.3);
+                        }
+
+                  .texto-section{
+                       /*border:2px solid red;*/
+                       height: 100px;
+                       width: 220px;
+                       color:aliceblue;
+                       font-size: 15px;
+                       font-family: cursive;
+                       text-align: center;
+                       align-content: center;
+
+
+                     }
+
+
+
+footer{
+    /*border:4px solid blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 77,.6);
+    border-radius: 50px;
+    margin-top: 150px;
+
+
+
+}
+
+    .final{
+        color: white;
+        text-shadow: 2px 2px 4px #000000    ;
+        font-size: 15px;
+        font-family: cursive;
+        padding: 10px;
+        
+
+    }
