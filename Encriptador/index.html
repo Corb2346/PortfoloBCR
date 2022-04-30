@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador.css">
+    <script src="encriptador.js"defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+
+ 
+
+
+    <title>Encriptador</title>
+</head>
+<body>
+    
+    <div id="logo">
+        
+       <div class="imageContainer"> <img src="./imagenes/logo_top.png" alt="logo_top" height="150px" width="auto">   </div> 
+    
+    </div>
+
+
+    <div id="mainInfo"> 
+
+        <div > <textarea type="text" id="inputText" onclick = "ingresarTexto()">Ingresa tu mensaje Aqui  </textarea></div>
+
+        
+
+        <div id="botonesEncriptar">   
+
+            <div id="textoAviso"> <img src="./imagenes/admiracion.png" height="18px" alt=""> Funciona con minusculas, mayusculas, acentos y caractéres especiales.</div>
+
+            <button id="encriptarButton" > Encriptar </button>
+
+            <button id="desencriptarButton"> Desencriptar </button>
+
+        </div>
+        
+
+
+    </div>
+
+    <div id="resultado">
+
+        <div id="whiteRectangle">
+
+            <div id="imageGuy"> <img src="./imagenes/image_Guy.png" height ="300px" alt="guy_image"></div>
+
+            <div id="displayTexto"> Ningun Mensaje fue encontrado</div>
+
+            <div id="displaySubtexto"> <textarea type="text" id="displayText"> Ingresa el texto que desees encriptar o desencriptar.</textarea>  </div>
+
+            <div id="copyResetButtons"> 
+
+                    <button id="copiarTexto"> Copiar</button> 
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>     

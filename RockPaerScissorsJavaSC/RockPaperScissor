@@ -1,0 +1,137 @@
+ function computerPlay(){
+
+                for(let i=1;i=numerodeJuegos;i++){
+                let opciones = ["rock","paper","scissor"];
+                
+                let opcionesLength = opciones.length;
+                let randomOpcion = Math.floor(Math.random()*opcionesLength);
+
+                if(randomOpcion == 0){
+
+                return opciones[0];
+                }
+
+                else if(randomOpcion == 1){
+
+                    return opciones[1];
+                }
+
+                else if(randomOpcion == 2){
+
+                    return opciones[2];
+                  }
+                }
+             }
+
+            function datoUsuario(string3){
+
+            let datoRecibido = string3;
+            let datominusculas = datoRecibido.toLowerCase();
+            return datominusculas;
+            }
+
+            function playGame(string1,string2){
+
+            let compSelect = string1; 
+            let userSelect = string2;
+
+            if(compSelect=="rock" && userSelect == "rock"){
+
+                console.log("!draw rock and rock¡");
+                return 0;
+            }
+            else if( compSelect == "rock" && userSelect == "paper"){
+
+                console.log("You win paper beats rock!!");
+                return 1;
+            }
+
+            else if(compSelect == "rock" && userSelect == "scissor"){
+
+                console.log("You loose rock beats scissors!!")
+                return 2;
+            }
+
+            else if( compSelect == "paper" && userSelect == "paper"){
+                console.log("!draw paper and paper¡");
+                return 0;
+
+            }
+
+            else if( compSelect == "paper" && userSelect == "rock"){
+                console.log("You loose paper beats rock!!")
+                return 2;
+            }
+
+            else if( compSelect == "paper" && userSelect == "scissor"){
+                console.log("You Win scissors beats paper!!")
+                return 1;
+            }
+
+            else if( compSelect == "scissor" && userSelect == "paper"){
+                console.log("!You loose scissors beats paper¡");
+                return 2;
+
+            }
+
+            else if( compSelect == "scissor" && userSelect == "rock"){
+                console.log("You win rock beats scissors!!")
+                return 1;
+            }
+
+            else if( compSelect == "scissor" && userSelect == "scissor"){
+                console.log("Draw scissors and scissors!!")
+                return 0;
+            }
+
+            else console.log("Input invalid, please select: rock,paper or scissor");
+                return 3; 
+           }
+
+             function Game(int){
+                let vecesAjugar = int; 
+                let contadorEmpate =0;
+                let contadorVictoria =0;
+                let contadorDerrota =0;
+                let contadorError =0;
+                for(let i = 1;i<=vecesAjugar;i++){
+
+                    
+                    const userSelectionPrompt =prompt("Please enter rock,paper or scissor: ");
+                    let userSelection = datoUsuario( userSelectionPrompt);
+                    let compSelection = computerPlay();
+                    let resultado = playGame(compSelection,userSelection);
+                    
+
+                    if(resultado == 0 ){
+
+                        contadorEmpate++;
+                        console.log(contadorEmpate);
+                    }
+                    else if(resultado == 1 ){
+                        contadorVictoria++;
+                        console.log(contadorVictoria);
+                    }
+                    else if(resultado == 2){
+                        contadorDerrota++;
+                        console.log(contadorDerrota);
+                    }
+                    else if (resultado != 0 &&  resultado != 1 && resultado != 2){
+                        contadorError++;
+                        console.log(contadorError);
+                    }
+
+
+                }
+
+                console.log(`Ganaste ${contadorVictoria}. Perdiste ${contadorDerrota}. Empataste ${contadorEmpate}. Valor incorrecto ${contadorError}`);
+                console.log("Gracias por jugar");
+
+            }
+
+                const numerodeJuegos = prompt("How many times you wanna play this game: ");
+            Game(numerodeJuegos);
+          
+
+            
+ 

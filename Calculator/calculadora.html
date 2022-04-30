@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "calculadora.css" rel = "stylesheet" >
+    <script src = "calculadora.js"defer></script>
+
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+    
+        <div id = "calculadoraContenedor">
+      
+            <div id="divDisplay">
+
+                <div id = "display">
+                    0
+    
+                </div>
+
+            </div>
+           
+
+            <div id = "divContenedorBotones">
+
+            
+            <div id="contenedorBotones" class = "estiloBotones">
+
+
+                <button id = "exponente" class = "estiloBotones" onclick = "operadorChoice('exp')" >exp
+                </button>
+
+                <button id = "delete" class = "estiloBotones">del
+                </button>
+
+                <button id = "clearButton" class = "estiloBotones">clear
+                </button>
+
+                </div>
+
+                <div id="contenedorBotones2" class = "estiloBotones">
+
+                <button id = "numeroUno" class = "number" class = "estiloBotones" onclick = "muestraPantalla('1')" >1
+                </button>
+
+                <button id = "numeroDos"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('2')">2
+                </button>
+
+                <button id = "numeroTres"  class = "number"  class = "estiloBotones" onclick = "muestraPantalla('3')">3
+                </button>
+
+                <button id = "operadorSuma" class = "estiloBotones" onclick = "operadorChoice('+')">+
+                </button>
+
+                </div>
+
+                <div id="contenedorBotones3" class = "estiloBotones">
+
+                <button id = "numeroCuatro"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('4')">4
+                </button>
+
+                <button id = "numeroCinco"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('5')">5
+                </button>
+
+                <button id = "numeroSeis"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('6')">6
+                </button>
+
+                <button id = "operadorResta" class = "estiloBotones" onclick = "operadorChoice('-')">-
+                </button>
+
+                </div>
+
+                <div id="contenedorBotones4" class = "estiloBotones">
+
+                <button id = "numeroSiete"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('7')">7
+                </button>
+
+                <button id = "numeroOcho"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('8')">8
+                </button>
+
+                <button id = "numeroNueve"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('9')">9
+                </button>
+
+                <button id = "operadorMultiplicacion" class = "estiloBotones" onclick = "operadorChoice('x')">x
+                </button>
+
+                 </div>
+             
+            
+                 <div id="contenedorBotones5" class = "estiloBotones">
+
+                    <button id = "numeroCero"  class = "number" class = "estiloBotones" onclick = "muestraPantalla('0')">0
+                    </button>
+    
+                    <button id = "puntoDecimal" class = "number"class = "estiloBotones" onclick="muestraPantalla('.')">
+                        .
+                    </button>
+    
+                    <button id = "operadorIgual" class = "estiloBotones" > = 
+                    </button>
+    
+                    <button id = "operadorDivision" class = "estiloBotones" onclick = "operadorChoice('/')"> /
+                    </button>
+    
+                     </div>
+
+                 </div>
+        </div>
+
+        <footer>
+
+                    <a href ="../index.html" id = "mainPage" > <img src="house_logo.png" alt="loog_house" height="50" width="50"> </a>
+
+                    <a href = "https://www.theodinproject.com/" id="topLogo" > <img src="logo_top.png" alt="logo_TOP" height="50" width="50"></a>
+
+                    <div id="madeBy" > <img src="logoB.png" alt="logo" height="50" width="50"> </div>
+
+                    <a href = https://github.com/Corb2346  id="linkToGithub" > <img src="github_log.png" alt="logo_github" height="50" width="50"> </a>
+            
+
+            
+
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,309 @@
+
+body{
+    background-image: url("./Imagenes/fondo_colores.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+
+}
+
+#container{
+ /*   border: 5px solid rgb(140, 0, 255);*/
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin: 100px;
+}
+
+
+#options{
+    width: 400px;
+  /*  border: 5px solid red;*/
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+        #selectorRange{
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+
+        .numerosEdit{
+            font-size: 25px;
+            font-family: cursive;
+            color: white;
+            text-shadow: 5px 5px 10px #000;
+
+
+        }
+
+        button{
+            text-decoration:none;
+            color:#FFF;
+        }
+
+        #opcionColorRainbow{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#00C0FF 0,#FFCF00 49%,#FC4F4F 80%,#00C0FF 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #opcionColorRainbow{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #opcionColorRainbow:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+
+        #opcionColorNegro{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#2e2e2e 0,#000000 49%,#3a3939 80%,#151616 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #opcionColorNegro{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #opcionColorNegro:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+       /* #opcionColorRGBHexa{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#00C0FF 0,#FFCF00 49%,#FC4F4F 80%,#00C0FF 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #opcionColorRGBHexa{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #opcionColorRGBHexa:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}*/
+
+        #borrador{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#02f7f7 0,#089cff 49%,#b71cff 80%,#02006e 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #borrador{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #borrador:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+        #limpiaPantalla{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#570457 0,#790326 49%,#d8092b 80%,#ff9100 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #limpiaPantalla{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #limpiaPantalla:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+        #quitarBordes{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#013316 0,#05e763 49%,#015222 80%,#013d30 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #quitarBordes{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #quitarBordes:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+        
+        #colocaBordes{
+            width:150px;
+            height:50px;
+            background-image:linear-gradient(90deg,#330227 0,#a1066e 49%,#da079a 80%,#f871e2 100%);
+            border-radius:5px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform:uppercase;
+            font-size:15px;
+            font-weight:700;
+        }
+
+        #colocaBordes{
+            content:attr(alt);
+            width:150px;
+            height:50px;
+            background-color:#191919;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        
+        #colocaBordes:hover{
+            animation:slidebg 2s linear infinite;
+        }
+
+        @keyframes slidebg{to{background-position:20vw}}
+
+
+        
+        #divContainer{
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(90deg, #000, #323232);
+            align-items: center;
+            position: relative;
+        }
+
+        .animate-bg:before, .animate-bg:after {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: -8px;
+            background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5,#ff004c,  
+            #e6036d, #fb0094,#ff6600, #04c2e4,#adad02, #00c3ff);
+            background-size: 300%;
+            width: calc(100% + 16px);
+            height: calc(100% + 16px);
+            z-index: -1;
+            animation: BGgradient 15s ease infinite; 
+        }
+        
+        @keyframes BGgradient {
+            0% {
+                background-position: 0% 200%;
+            }
+            50% {
+                background-position: 200% 0%;
+            }
+            100% {
+                background-position: 0% 330%;
+            }
+        }
+        
+        .animate-bg:after {
+            filter: brightness(1.4);
+            filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+            filter: blur(15px);
+        }
+
+        /*para los cambios de fondos en el javascript */
+
+        .colorBlanco{
+
+            background-color: red;
+        }
+
+        #mainPage:hover{
+            filter: drop-shadow(1px 1px 4px white);
+        }

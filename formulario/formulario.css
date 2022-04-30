@@ -1,0 +1,115 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: aliceblue;
+    background-color: black;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+#imageLeft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#imageLeft img{
+    height: 800px;
+}
+
+#rectangleTitle{
+    /*border: yellow 5px solid;*/
+    background-color:hsla(0, 0%, 0%, 0.397);
+    height: 130px;
+    width: 540px;
+    position: absolute;
+    left:160px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rectangleTitle img{
+    height: 180px;
+}
+
+#datos{
+    /*border: yellow 5px solid;*/
+    background-color:hsla(0, 0%, 0%, 0.718);
+    height: 800px;
+    width: 580px;
+    position: absolute;
+    left:700px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#introBox{
+    font-size: 22px;
+    padding: 50px;
+
+}
+
+#botonesContenedor{
+    background-color: rgba(10, 10, 10, 0.595);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    gap:15px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.form{
+    height: 25px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    background: none;
+    padding: 5px;
+}
+.form:hover{
+   border:solid 2px rgb(243, 255, 255);
+}
+
+.contenedorRegistros{
+    /*border: 3px solid yellow;*/
+   
+
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    width: 85px;
+    border: 0px solid;
+    background-image: linear-gradient(45deg,blue,#00f0a0,blue);
+    background-size: 500% 400%;
+    color: white;
+    border-radius: 50px;
+    transition: 0.6s all;
+   }
+   
+   button:hover {
+    background-position: 75% 50%;
+    transform: perspective(100px)
+   }
+   
+   button:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+   }
+
+   .buttonFooter{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }

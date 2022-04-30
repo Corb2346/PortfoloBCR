@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sketch.css">
+    <script src = "sketch.js"defer></script>
+    <title>Sketch</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="options">
+
+            <div id="selectorCuadrados"> 
+
+                <div id="selectorRange">
+
+                    <div id = "minValor" class = "numerosEdit"> 0</div>
+                    <div id ="maxValor" class = "numerosEdit" >50</div>
+                </div>
+                <input type="range" id="rango" min = "0" max = "50" value="16" steps = "1"  >
+
+                <div id="valorPantalla" class = "numerosEdit" > 0</div>
+            </div>
+
+            <button id="opcionColorNegro" onclick=" changeColor('black')"> BlackColor </button>
+
+            <button id="opcionColorRainbow" onclick=" changeColor('random')">RainBowColor </button>
+
+            <input type="text" id = "hexa">
+            <input type="color" id = "colorHex"  >
+
+            <button id="borrador" onclick= "changeColor('white')"> Eraser </button>
+
+            <button id="limpiaPantalla"> Clean</button>
+
+            <button id="quitarBordes" > OffBorder</button>
+
+            <button id="colocaBordes">ApplyBorder</button>
+
+            <input type="text" id = "ColoringOrNot">
+        </div>
+
+        <div id="divContainer" class = "animate-bg" >
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+    <a href ="../index.html" id = "mainPage" > <img src="../Calculator/house_logo.png" alt="loog_house" height="50" width="50"> </a>
+</body>
+</html>
